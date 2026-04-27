@@ -3,7 +3,7 @@
 **Independent Real Estate and Software Tools and Utilities Company.**
 
 ## Real Estate
-- Comercial Housing
+- Rental Housing
 ## Apps
 - **WAvg** – Weighted Average Calculator for Android
   - [Privacy Policy](/privacy-wavg)
