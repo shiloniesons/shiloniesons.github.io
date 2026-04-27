@@ -1,0 +1,8 @@
+---
+---
+@import "{{ site.theme }}";
+
+// This removes the header area entirely so there is no empty gap
+.page-header {
+  display: none !important;
+}
