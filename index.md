@@ -1,4 +1,5 @@
-<img width="960" height="400" alt="20260425_173529" src="https://github.com/user-attachments/assets/c95f76b0-7b2b-4411-a490-a7b9cd6b3271" />
+<img width="80%" src="https://github.com/user-attachments/assets/c95f76b0-7b2b-4411-a490-a7b9cd6b3271" alt="20260425_173529" />
+
 Independent Real Esate and Software Tools and Utilities Company.
 
 ## Real Estate
