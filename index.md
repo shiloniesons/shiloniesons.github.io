@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <img width="80%" src="https://github.com/user-attachments/assets/c95f76b0-7b2b-4411-a490-a7b9cd6b3271" alt="20260425_173529" />
 
 **Independent Real Estate and Software Tools and Utilities Company.**
