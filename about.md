@@ -11,4 +11,4 @@ title: About Us
 </ul>
 </div>
 
-Site Version 1.0
+- Site Version 1.0
