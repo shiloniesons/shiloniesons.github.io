@@ -2,13 +2,10 @@
 layout: default
 title: About Us
 ---
-<div>
-<input type="checkbox" id="menu-toggle">
-<label for="menu-toggle" class="menu-icon">&#9776;</label>
-<ul class="nav-menu">
-  <li><a href="about">About Us</a></li>
-  <li><a href="/">Home</a></li>
-</ul>
+<div align="right" style="padding: 10px; border-bottom: 1px solid #ddd; margin-bottom: 20px;">
+  <a href="./" style="text-decoration: none; color: #0366d6; font-weight: bold;">HOME</a> 
+  &nbsp;&nbsp;|&nbsp;&nbsp; 
+  <a href="about" style="text-decoration: none; color: #0366d6; font-weight: bold;">ABOUT</a>
 </div>
 
 - Site Version 1.0
