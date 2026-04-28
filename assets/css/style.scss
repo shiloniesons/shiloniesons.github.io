@@ -5,34 +5,32 @@
 /* Sets the site-wide gray background */
 body {
   background-color: #f0f0f0 !important;
-  padding-top: 80px !important;
-}
-/* Keep the header title at the top while scrolling */
-.project-name, .site-header {
-  position: fixed !important;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9998;
-  background-color: #0366d6; /* Matches your theme blue */
-  padding: 10px 0;
-  margin: 0;
 }
 /* --- Hamburger Menu Styles --- */
 #menu-toggle { display: none; }
 
-/* Keep the Hamburger Icon in place */
 .menu-icon {
-  position: fixed !important; /* Changed from absolute to fixed */
-  top: 15px;
-  right: 15px;
-  z-index: 10000 !important;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 35px; /* Slightly larger for easier tapping on S23+ */
+  cursor: pointer;
+  z-index: 10000 !important; 
+  color: #0366d6;
 }
 
-/* Keep the Menu box in place */
+/* Forces the menu to sit on top of everything else */
 .nav-menu {
-  position: fixed !important;
+  display: none; /* Stays hidden until clicked */
+  position: absolute;
   top: 60px;
+  right: 20px;
+  background-color: white !important;
+  border: 1px solid #ddd;
+  padding: 15px;
+  list-style: none;
+  z-index: 9999 !important; /* Forces it to stay ON TOP of the logo */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 /* Ensure the text inside is clickable and visible */
