@@ -40,7 +40,12 @@ body {
   padding: 5px 0;
 }
 
-/* When the checkbox is checked, show the menu */
-#menu-toggle:checked + .menu-icon + .nav-menu {
-  display: block;
+/* This is the "Magic" that makes the menu appear when clicked */
+#menu-toggle:checked ~ .nav-menu {
+  display: block !important;
+}
+
+/* Ensure the checkbox itself is invisible */
+#menu-toggle {
+  display: none;
 }
