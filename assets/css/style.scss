@@ -42,11 +42,15 @@ body {
 }
 
 /* This is the "Magic" that makes the menu appear when clicked */
-#menu-toggle:checked ~ .nav-menu {
+#menu-toggle:checked + .menu-icon + .nav-menu {
   display: block !important;
+  z-index: 10001 !important; /* One layer higher than the icon */
 }
 
-/* Ensure the checkbox itself is invisible */
-#menu-toggle {
-  display: none;
+/* Ensure the links inside are specifically styled to be clickable */
+.nav-menu li a {
+  display: block;
+  width: 100%;
+  color: #0366d6 !important;
+  text-decoration: none;
 }
