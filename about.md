@@ -2,7 +2,13 @@
 layout: default
 title: About Us
 ---
-# About Shilonie & Sons, LLC
-We are an independent limited liabily Real Estate and Software a company.
+<div>
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="menu-icon">&#9776;</label>
+<ul class="nav-menu">
+  <li><a href="about">About Us</a></li>
+  <li><a href="/">Home</a></li>
+</ul>
+</div>
 
-Version 1.0
+Site Version 1.0
