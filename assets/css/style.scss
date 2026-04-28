@@ -13,23 +13,24 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
-  font-size: 30px;
+  font-size: 35px; /* Slightly larger for easier tapping on S23+ */
   cursor: pointer;
-  z-index: 100;
-  color: #0366d6; /* Matches default blue header */
+  z-index: 10000 !important; 
+  color: #0366d6;
 }
 
 /* Forces the menu to sit on top of everything else */
 .nav-menu {
-  display: none;
+  display: none; /* Stays hidden until clicked */
   position: absolute;
   top: 60px;
   right: 20px;
-  background-color: white !important; /* Ensure it's not transparent */
+  background-color: white !important;
   border: 1px solid #ddd;
   padding: 15px;
-  z-index: 9999 !important; /* The most important line */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  list-style: none;
+  z-index: 9999 !important; /* Forces it to stay ON TOP of the logo */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 /* Ensure the text inside is clickable and visible */
