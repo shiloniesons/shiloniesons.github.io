@@ -2,66 +2,21 @@
 ---
 @import "{{ site.theme }}";
 
-/* Sets the site-wide gray background */
+/* 1. Global Background Color */
 body {
   background-color: #f0f0f0 !important;
-}
-/* --- Hamburger Menu Styles --- */
-#menu-toggle { display: none; }
-
-.menu-icon {
-  /* Use fixed to stay in place or ensure parent is relative */
-  position: absolute; 
-  top: 10px;           /* Lowered slightly to avoid theme title overlap */
-  right: 15px;
-  
-  /* The Frame */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;         /* Standard touch-friendly size for mobile */
-  height: 42px;
-  
-  /* Layout fixes for Android */
-  z-index: 1000;       /* Ensures it stays on top of the title text */
-  background-color: #fff;
-  border: 2px solid #0366d6;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  text-align: left;
+  padding: 0 20px;
 }
 
-/* Forces the menu to sit on top of everything else */
-.nav-menu {
-  display: none; /* Stays hidden until clicked */
-  position: absolute;
-  top: 60px;
-  right: 20px;
-  background-color: white !important;
-  border: 1px solid #ddd;
-  padding: 15px;
-  list-style: none;
-  z-index: 9999 !important; /* Forces it to stay ON TOP of the logo */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-/* Ensure the text inside is clickable and visible */
-.nav-menu li a {
-  color: #0366d6 !important;
-  text-decoration: none;
+/* 2. Centers your Logo and any other images */
+img {
   display: block;
-  padding: 5px 0;
+  margin: 0 auto;
 }
 
-/* This is the "Magic" that makes the menu appear when clicked */
-/* This looks for the menu even if it's inside a div */
-#menu-toggle:checked ~ .nav-menu {
-  display: block !important;
-}
-
-/* Ensure the links inside are specifically styled to be clickable */
-.nav-menu li a {
-  display: block;
-  width: 100%;
-  color: #0366d6 !important;
-  text-decoration: none;
+/* 3. Optional: Hover effect for your new Menu Bar */
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
 }
