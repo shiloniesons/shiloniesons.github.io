@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
+<div>
 <input type="checkbox" id="menu-toggle">
 <label for="menu-toggle" class="menu-icon">&#9776;</label>
 <ul class="nav-menu">
   <li><a href="about">About Us</a></li>
   <li><a href="/">Home</a></li>
 </ul>
+</div>
 <img width="80%" src="https://github.com/user-attachments/assets/c95f76b0-7b2b-4411-a490-a7b9cd6b3271" alt="20260425_173529" />
 
 **Independent Real Estate and Software Tools and Utilities Company.**
