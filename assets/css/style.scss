@@ -13,12 +13,22 @@ body {
   position: absolute;
   top: 20px;
   right: 20px;
-  font-size: 35px; /* Slightly larger for easier tapping on S23+ */
+  font-size: 24px;      /* Slightly smaller icon to fit the frame */
+  color: #0366d6;       /* Your theme blue */
   cursor: pointer;
-  z-index: 10000 !important; 
-  color: #0366d6;
+  z-index: 100;
+  
+  /* The Frame */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;          /* Makes a perfect square/circle */
+  height: 45px;
+  border: 2px solid #0366d6; 
+  border-radius: 8px;   /* Rounded corners (change to 50% for a circle) */
+  background-color: white;   /* Makes it pop against the gray background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-
 /* Forces the menu to sit on top of everything else */
 .nav-menu {
   display: none; /* Stays hidden until clicked */
