@@ -42,9 +42,9 @@ body {
 }
 
 /* This is the "Magic" that makes the menu appear when clicked */
-#menu-toggle:checked + .menu-icon + .nav-menu {
+/* This looks for the menu even if it's inside a div */
+#menu-toggle:checked ~ .nav-menu {
   display: block !important;
-  z-index: 10001 !important; /* One layer higher than the icon */
 }
 
 /* Ensure the links inside are specifically styled to be clickable */
