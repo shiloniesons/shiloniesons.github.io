@@ -19,17 +19,25 @@ body {
   color: #0366d6; /* Matches default blue header */
 }
 
+/* Forces the menu to sit on top of everything else */
 .nav-menu {
   display: none;
   position: absolute;
   top: 60px;
   right: 20px;
-  background: #fff;
+  background-color: white !important; /* Ensure it's not transparent */
   border: 1px solid #ddd;
-  padding: 10px;
-  list-style: none;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  z-index: 99;
+  padding: 15px;
+  z-index: 9999 !important; /* The most important line */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Ensure the text inside is clickable and visible */
+.nav-menu li a {
+  color: #0366d6 !important;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
 }
 
 /* When the checkbox is checked, show the menu */
