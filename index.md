@@ -15,6 +15,7 @@ layout: default
 - Rental Housing
   - No available rentals at this time.
   - [Download Rental Application](Rental_Application.pdf)
+
 ## Apps
 - **WAvg** – Weighted Average Calculator for Android
   - [Privacy Policy](/privacy-wavg)
