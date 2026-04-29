@@ -8,6 +8,9 @@ title: About Us
   <a href="about" style="text-decoration: none; color: #0366d6; font-weight: bold;">ABOUT</a>
 </div>
 
+Established in 2005, we manage rental units for renting in multifamily houses.\
+We also develop Android apps and utilities from time to time, for general use.
+
 <br><br>
 <hr style="border: 0; border-bottom: 1px solid #ddd;">
 <div align="center">
