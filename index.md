@@ -13,7 +13,8 @@ layout: default
 
 ## Real Estate
 - Rental Housing
-  - [Download Rental Application](Rental_Application.pdf)
+  - No availabel rentals at this time.
+    - [Download Rental Application](Rental_Application.pdf)
 ## Apps
 - **WAvg** – Weighted Average Calculator for Android
   - [Privacy Policy](/privacy-wavg)
