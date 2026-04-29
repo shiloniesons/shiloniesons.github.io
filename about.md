@@ -9,7 +9,7 @@ title: About Us
 </div>
 
 Established in 2005, we manage rental units for renting in multifamily houses.\
-We also develop Android apps and utilities from time to time, for general use.
+We also develop Android apps and utilities from time to time, for general use. 
 
 <br><br>
 <hr style="border: 0; border-bottom: 1px solid #ddd;">
