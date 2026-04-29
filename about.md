@@ -8,4 +8,4 @@ title: About Us
   <a href="about" style="text-decoration: none; color: #0366d6; font-weight: bold;">ABOUT</a>
 </div>
 
-- Site Version 1.0
+- Site Version {{ site.github.latest_release.tag_name }}
