@@ -19,7 +19,9 @@ layout: default
 ## Apps
 - **WAvg** – Weighted Average Calculator for Android
   - [Privacy Policy](/privacy-wavg)
-
+  <a href="https://play.google.com/store/apps/details?id=com.shiloniesons.apps.wavg" target="_blank" rel="noopener noreferrer">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" style="height: 45px; margin-top: 8px;">
+  </a>
 ## Contact
 shilonie_sons@att.net\
 74 Washington Ave Ste #10\
