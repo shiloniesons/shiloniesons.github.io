@@ -8,9 +8,17 @@ title: About Us
   <a href="about" style="text-decoration: none; color: #0366d6; font-weight: bold;">ABOUT</a>
 </div>
 
-Established in 2005, we manage rental units for renting in multifamily houses.\
-We also develop Android apps and utilities from time to time, for general use. 
+# Shilonie & Sons LLC
 
+A specialized firm focusing on real estate solutions and custom software development.
+
+## 🛠️ Expertise
+* Android Mobile Development (Kotlin, Jetpack Compose)
+* Web Applications & Systems Infrastructure
+* Real Estate Technology Integration
+
+## 📬 Contact
+* Website: [shiloniesons.github.io](https://github.io)
 <br><br>
 <hr style="border: 0; border-bottom: 1px solid #ddd;">
 <div align="center">
