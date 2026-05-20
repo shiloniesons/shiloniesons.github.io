@@ -8,17 +8,13 @@ title: About Us
   <a href="about" style="text-decoration: none; color: #0366d6; font-weight: bold;">ABOUT</a>
 </div>
 
-# Shilonie & Sons LLC
-
-A specialized firm focusing on real estate solutions and custom software development.
+Established in 2005, specializing firm focusing on real estate rental solutions and custom software development.
 
 ## 🛠️ Expertise
 * Android Mobile Development (Kotlin, Jetpack Compose)
 * Web Applications & Systems Infrastructure
-* Real Estate Technology Integration
+* Real Estate rental and Integration
 
-## 📬 Contact
-* Website: [shiloniesons.github.io](https://github.io)
 <br><br>
 <hr style="border: 0; border-bottom: 1px solid #ddd;">
 <div align="center">
